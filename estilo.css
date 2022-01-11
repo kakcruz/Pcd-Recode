@@ -16,7 +16,7 @@ header .menucontatos a {
 
 
 #home .banner{ 
-    background-image: url(../projeto_pcd/imagens/pcd.png);
+    background-image: url(./imagens/pcd.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #d7f1fe;
@@ -29,35 +29,6 @@ header .menucontatos a {
 
 }
 
-
-
-#destinos .banner{ 
-    background-image: url(../Projeto-recode---Agencia-de-Viagens/imagens/aviao.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 600px;
-    z-index: -1;
-
-}
-
-#promocoes .banner{ 
-    background-image: url(../Projeto-recode---Agencia-de-Viagens/imagens/promocao.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 600px;
-    z-index: -1;
-
-}
 
 
 
