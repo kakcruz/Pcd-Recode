@@ -1,0 +1,201 @@
+header {
+    height: 80px;
+}
+
+
+header a {
+    display: block;
+    color:  rgb(212, 33, 93) !important;
+    font-size: 20px;
+}
+
+header .menucontatos a {
+    color: blue !important;
+}
+
+
+
+#home .banner{ 
+    background-image: url(../projeto_pcd/imagens/pcd.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #d7f1fe;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+
+}
+
+
+
+#destinos .banner{ 
+    background-image: url(../Projeto-recode---Agencia-de-Viagens/imagens/aviao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+
+}
+
+#promocoes .banner{ 
+    background-image: url(../Projeto-recode---Agencia-de-Viagens/imagens/promocao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+
+}
+
+
+
+#home .banner h2 {
+    margin-top: 180px;
+    color: #fff;
+    font-size: 50px;
+}
+
+
+#home .pesquisa {
+    margin-top: 480px;
+}
+
+#home .pesquisa .container {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+#home .pacotes .container .card {
+    height: 241px;
+
+}
+
+
+#home .pacotes .container .card .card_imagem {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    height: 240px;
+
+}
+
+#home .pacotes .container .card .overlay {
+    background-color: black;
+    opacity: 0.7;
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+#home .pacotes .container .card .iconcard {
+    color: white;
+    z-index: 2; 
+    font-size: 60px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+h6{
+    z-index: 3;
+    color: white;
+}
+
+
+h5{
+    color: rgb(5, 2, 49);
+}
+
+#home .btnmaisdestinos{
+    margin-top: 20px;
+}
+
+#destinos .pacotes .container {
+    margin-top: 600px;
+}
+
+#destinos .banner h2 {
+    margin-top: 180px;
+    color: #fff;
+    font-size: 50px;
+}
+
+#home .faleconosco {
+    margin-top: 20px;
+    margin-left: 500px;
+    
+}
+
+#home .cardes{
+    margin-top: 20px;
+    display: flex;
+}
+
+#home .cardes .row{
+    display: flex;
+    justify-content: center;
+}
+
+
+#promocoes .container{
+margin-top: 220px;
+margin-right: 30px;
+
+}
+
+#home .btnpesquisar{
+    padding-top: 40px;
+    
+}
+
+
+#promocao .cartao{
+    margin-top: 550px;
+}
+
+#promocao .cartao .container .btncomprar{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#home .icons .container .row{
+    height: 300px;
+    align-self: auto;
+    align-items: center;
+
+}
+
+
+#home .icons .ic{
+    font-size: 50px;
+    color: rgb(212, 33, 93);
+}
+
+footer .rodape .container{
+    margin-top: 50px;
+    border-top: 1px solid gray;
+
+}
+
