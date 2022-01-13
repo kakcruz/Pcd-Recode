@@ -53,6 +53,7 @@ header .menucontatos a {
 
 #home .pacotes .container .card {
     height: 241px;
+    
 
 }
 
@@ -150,14 +151,6 @@ margin-right: 30px;
     justify-content: flex-end;
     
 }
-
-#home .icons .container .row{
-    height: 300px;
-    align-self: auto;
-    align-items: center;
-
-}
-
 
 #home .icons .ic{
     font-size: 50px;
