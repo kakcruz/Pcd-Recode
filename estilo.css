@@ -64,7 +64,6 @@ header .menucontatos a {
     top: 0;
     z-index: 0;
     height: 240px;
-
 }
 
 #home .pacotes .container .card .overlay {
@@ -156,6 +155,7 @@ margin-right: 30px;
     font-size: 50px;
     color: rgb(212, 33, 93);
 }
+
 
 footer .rodape .container{
     margin-top: 50px;
