@@ -196,3 +196,12 @@ footer .rodape .container{
 .forms button i {
     margin-right: 10px;
 }
+
+.btnmaisdestinos .maisvagas{
+    text-align: center;
+    
+}
+
+.btnmaisdestinos .maisvagas .btnvagas{
+    width: 25%;
+}
