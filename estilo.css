@@ -5,12 +5,16 @@ header {
 
 header a {
     display: block;
-    color:  rgb(212, 33, 93) !important;
+    color:  rgb(119, 14, 36) !important;
     font-size: 20px;
 }
 
 header .menucontatos a {
     color: blue !important;
+}
+
+#home .navmenu .menunav{
+    color: rgb(119, 14, 36);
 }
 
 
@@ -29,7 +33,9 @@ header .menucontatos a {
 
 }
 
-
+#home .navmenu{
+    background-color: rgb(248, 249, 250);
+}
 
 
 #home .banner h2 {
@@ -233,3 +239,29 @@ footer .rodape .container{
 #home .empresas{
     margin-top: 70px;
 }
+
+ .rodape .redes a{
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    transition: 0.5s;
+
+}
+
+.rodape .redes a:hover{
+
+    margin-left: 20px;
+}
+
+.rodape h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.rodape{
+    background-color: rgb(119, 14, 36);
+}
+
