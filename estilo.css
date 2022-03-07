@@ -265,3 +265,31 @@ footer .rodape .container{
     background-color: rgb(119, 14, 36);
 }
 
+#nos .card-quem-somos{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(119, 14, 36);    
+    float: left;
+    
+}
+
+#nos .card-quem-somos .top-card .foto{
+    width: 20%;
+    float: left;
+    
+}
+
+#nos .card-quem-somos .top-card h1{
+    width: 70%;
+    float: right;
+    color: rgb(10, 69, 77);
+    font-size: 35px;
+    
+}
+
+#nos .card-quem-somos .top-card{
+    float: left;
+    display: flex;
+    align-items: center;
+
+}
