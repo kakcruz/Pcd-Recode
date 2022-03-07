@@ -263,6 +263,11 @@ footer .rodape .container{
 
 .rodape{
     background-color: rgb(119, 14, 36);
+    padding-bottom: 40px;
+}
+
+#flex{
+    position: relative;
 }
 
 #nos .card-quem-somos{
@@ -291,5 +296,6 @@ footer .rodape .container{
     float: left;
     display: flex;
     align-items: center;
+
 
 }
