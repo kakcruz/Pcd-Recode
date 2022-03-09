@@ -1,5 +1,6 @@
 header {
     height: 80px;
+    
 }
 
 
@@ -20,7 +21,7 @@ header .menucontatos a {
 
 
 #home .banner{ 
-    background-image: url(./imagens/pcd2.png);
+    background-image: url(./imagens/fundo2.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #d7f1fe;
@@ -59,6 +60,7 @@ header .menucontatos a {
 
 #home .pacotes .container .card {
     height: 241px;
+    
     
 
 }
@@ -187,29 +189,47 @@ footer .rodape .container{
 
 #vagas .caixa_de_busca .busca .forms{
     border: 1px solid rgb(119, 14, 36);
-    border-radius: 5px;
-    background-color: rgb(248,249,250);
+    border-radius: 25px;
+    background-color: rgb(190, 65, 92);
     margin-top: 50px;
-    padding: 15px;
+    padding: 25px;
 }
 
 
 #vagas{
-    background-color: rgb(248,249,250);
+    background-color: rgb(243, 235, 239);
 }
 
 
+
 #vagas .card .card-header{
-    background-color: rgb(119, 14, 36);
+    background-color: rgb(190, 65, 92);
+    padding: 16px;
+    border-radius: 42px 12px;
 }
 
 #vagas .card .card-header h4{
     color: white;
+    padding: 5px;
+    font-size: 28px;
+
 }
 
 
+#vagas .form-select{
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
+#vagas .label{
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
 .forms .campo {
     margin-bottom: 10px;
+
+    
 }
 
 .forms label {
@@ -234,8 +254,17 @@ footer .rodape .container{
     background-color: rgb(119, 14, 36);
 }
 
+#vagas .card{
+    padding: 10px;
+    border-radius: 42px 12px;
+    box-shadow: black 0px 42px 51px -60px;
+
+}
+
 #vagas .card .candidatar{
-    background-color: rgb(119, 14, 36);
+    background-color: rgb(190, 65, 92);
+    padding: 15px 20px;
+    border-radius: 25px 20px ;
 } 
 
 
