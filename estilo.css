@@ -24,6 +24,12 @@ header .menucontatos a {
 }
 
 
+.menunav .logopcd{
+    width: 70px;
+    
+}
+
+
 
 #home .banner{ 
     background-image: url(./imagens/capa.png);
@@ -206,6 +212,66 @@ footer .rodape .container{
     background-color: rgb(243, 235, 239);
 }
 
+#perfil{
+    background-color: rgb(243, 235, 239);
+}
+
+
+#perfil .Login .card{
+    width: 100%;
+    max-width: 414px;
+    padding:30px;
+    margin-left: auto;
+    border-radius: 24px;
+    margin-right: auto;
+    margin-top: 60px;
+    
+    
+}
+
+#perfil .Login .card .campo{
+    margin-bottom: 40px;
+    
+}
+
+#perfil .Login .card input{
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 5px;
+    
+}
+
+#perfil .Login .btn{
+    margin: 0 5px;
+    
+    
+}
+
+#perfil hr{
+    
+
+
+    
+
+}
+
+
+
+#perfil .Login .card .btn_entrar{
+    width: 100%;
+    background-color: rgb(119, 14, 36);
+    
+    
+}
+
+#perfil .Login .card .pessoa{
+    font-size: 90px;
+    text-align: center;
+    color: rgb(119, 14, 36);
+}
+
+
+
 
 
 #vagas .card .card-header{
@@ -341,6 +407,8 @@ footer .rodape .container{
 #nos .card-quem-somos .top-card .foto{
     width: 20%;
     float: left;
+    padding: 10px;
+    border-radius: 50px;
     
 }
 

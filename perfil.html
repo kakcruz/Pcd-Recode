@@ -28,9 +28,11 @@
                     <div class="col-12 menunav">
                         <nav class="navbar navbar-light">
                             <div class="container-fluid">
+
                                 <div class="logo">
-                                    <a class="navbar-brand logo" href=""><img src="./imagens/logo.png" class="logopcd" alt=""></a>
-                                  </div>
+                                    <a class="navbar-brand logo" href=""><img src="./imagens/logo.png" class="logopcd"
+                                            alt=""></a>
+                                </div>
 
                                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -47,10 +49,12 @@
                                     <div class="offcanvas-body">
                                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                             <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
-                                              </li>
                                             <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="perfil.html">Meu Perfil</a>
+                                                <a class="nav-link active" aria-current="page"
+                                                    href="index.html">Início</a>
+                                            </li>
+                                            <a class="nav-link active" aria-current="page" href="perfil.html">Meu
+                                                Perfil</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="vagas.html">Vagas</a>
@@ -70,45 +74,50 @@
                         </nav>
                     </div>
                 </div>
-    </header>
-
-    <main id="nos">
-        <section id="flex">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-5">
-                        <div class="card-quem-somos">
-                            <div class="top-card">
-                                <img src="./imagens/karol.jpeg" alt="" class="foto">
-                                <h1>Karoline Da Cruz</h1>
-                            </div>
-                            <div class="conteudo-card">
-                                <div class="container">
-                                    <p>Olá,
-                                        Sou estudante da Recode Pro, futura desenvolvedora full stack</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-5 offset-md-2">
-                        <div class="card-quem-somos">
-                            <div class="top-card">
-                                <img src="./imagens/max.jpeg" alt="" class="foto">
-
-                                <h1>Max</h1>
-                            </div>
-                            <div class="conteudo-card">
-                                <div class="container">
-                                    <p>Olá,
-                                        Sou estudante da Recode Pro, futura desenvolvedora full stack</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
             </div>
         </section>
+    </header>
+
+    <main id="perfil">
+        <section class="Login">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card"><i class="bi bi-person-circle pessoa"></i>
+                            <div class="card-body">
+                                <h3 class="card-title text-center">Login do Cliente</h3>
+                            </div>
+                            <div class="campo">
+                                <label for="user">Digite seu usuário:</label>
+                                <input type="texte" class="w-100" placeholder="Ex: kakcruz@recode.org.br">
+                            </div>
+                            <div class="campo">
+                                <label for="user">Senha:</label>
+                                <input type="password" class="w-100" placeholder="123@456">
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-danger btn_entrar">Entrar</button>
+                            </div>
+
+                            <div class="text-center"> 
+                                <hr>
+                                OU ENTRE COM:
+                                <hr>
+                            </div>
+                            <div class="btn-group btn_grupo">
+                                <button class="btn btn-danger"><i class="bi bi-google"></i></button>
+                                <button class="btn btn-danger"><i class="bi bi-facebook"></i></button>
+                                <button class="btn btn-danger"><i class="bi bi-linkedin"></i>
+                            </div>
+
+
+                            <div class="card-body text-center">
+                                <a href="#" class="card-link">Não tem cadastro? Começe por aqui!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
 
     <footer>
@@ -129,10 +138,16 @@
                     </div>
                     <div class="col-12 col-md-4 redes">
                         <h3>Institucional</h3>
-                        <a href="" title="">Quem somos Nós</a>
+                        <a href="nos.html" title="">Quem somos Nós</a>
                         <a href="" title="">Trabalhe Conosco</a>
+
+
+
                     </div>
+
+
                 </div>
+            </div>
             </div>
         </section>
     </footer>
