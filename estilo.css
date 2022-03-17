@@ -164,6 +164,14 @@ margin-right: 30px;
 #home .btnpesquisar{
     padding-top: 40px;
     
+    
+}
+
+#home .btnpesquisar .bpequisar{
+        background-color: rgb(190, 65, 92);
+        border-radius: 25px 20px ;
+        width: 50%;
+        
 }
 
 
@@ -185,7 +193,7 @@ margin-right: 30px;
 
 #home .icons .ic{
     font-size: 50px;
-    color: rgb(119, 14, 36);
+    color: rgb(190, 65, 92);
 }
 
 #home .pacotes{
@@ -207,6 +215,9 @@ footer .rodape .container{
     padding: 25px;
 }
 
+#home{
+    background-color: rgb(243, 235, 239);
+}
 
 #vagas{
     background-color: rgb(243, 235, 239);
@@ -222,44 +233,56 @@ footer .rodape .container{
     max-width: 414px;
     padding:30px;
     margin-left: auto;
-    border-radius: 24px;
+    border-radius: 25px;
     margin-right: auto;
-    margin-top: 60px;
+    margin-top: 30px;
+    box-shadow: black 0px 42px 51px -60px;
+    margin-bottom: 30px;
+    background-color: rgb(190, 65, 92);;
     
     
 }
 
 #perfil .Login .card .campo{
     margin-bottom: 40px;
+    color: white;
+    
     
 }
 
+#perfil h3{
+    color: white;
+
+}
+
+
+
+#perfil .card-link{
+    color: white;
+}
+
+
 #perfil .Login .card input{
-    padding: 10px;
-    border-radius: 8px;
     margin-top: 5px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    
     
 }
 
 #perfil .Login .btn{
     margin: 0 5px;
+    background-color: white;
+    border-color: white;
     
     
 }
-
-#perfil hr{
-    
-
-
-    
-
-}
-
 
 
 #perfil .Login .card .btn_entrar{
     width: 100%;
     background-color: rgb(119, 14, 36);
+    border: rgb(119, 14, 36);
     
     
 }
@@ -267,7 +290,7 @@ footer .rodape .container{
 #perfil .Login .card .pessoa{
     font-size: 90px;
     text-align: center;
-    color: rgb(119, 14, 36);
+    color: white;
 }
 
 
@@ -301,7 +324,6 @@ footer .rodape .container{
 .forms .campo {
     margin-bottom: 10px;
     color: rgb(247, 241, 241);
-
     
 }
 
@@ -345,22 +367,29 @@ footer .rodape .container{
     margin-right: 10px;
 }
 
+
 .btnmaisdestinos .maisvagas{
     text-align: center;
-    
 }
 
+
 .btnmaisdestinos .maisvagas .btnvagas{
-    width: 25%;
+        background-color: rgb(190, 65, 92);
+        padding: 15px 20px;
+        border-radius: 25px 20px ;
+        margin-top: 30px;
 }
+
 
 #home .passos .passoapasso{
     margin-bottom: 30px;
 }
 
+
 #home .parceiros .patrocinadores{
     margin-top: 30px;
 }
+
 
 #home .empresas{
     margin-top: 70px;
