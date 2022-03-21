@@ -4,6 +4,11 @@ header {
 }
 
 
+#index .navbar-light .navbar-toggler {
+    border-color:rgb(190, 65, 92);
+
+    }
+
 header a {
     display: block;
     color:  rgb(119, 14, 36) !important;
@@ -417,7 +422,7 @@ footer .rodape .container{
 }
 
 .rodape{
-    background-color: rgb(119, 14, 36);
+    background-color: rgb(190, 65, 92);
     padding-bottom: 40px
 }
 
@@ -425,11 +430,24 @@ footer .rodape .container{
     position: relative;
 }
 
+#nos{
+    background-color: rgb(243, 235, 239);
+}
+
 #nos .card-quem-somos{
-    border: 1px solid black;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgb(119, 14, 36);    
+    border: 1px solid #c0b2b2;
+    border-radius: 42px 12px;
+    box-shadow: black 0px 42px 51px -60px;
     float: left;
+    margin-top: 40px;
+    transition: 0.5s;
+    background-color: white;
+
+}
+
+#nos .card-quem-somos:hover{
+    transform: scale(1.1);
+    
     
 }
 
@@ -444,8 +462,8 @@ footer .rodape .container{
 #nos .card-quem-somos .top-card h1{
     width: 70%;
     float: right;
-    color: rgb(10, 69, 77);
-    font-size: 35px;
+    color: rgb(190, 65, 92);
+    font-size: 30px;
     
 }
 
