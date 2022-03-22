@@ -473,3 +473,45 @@ footer .rodape .container{
     align-items: center;
 
 }
+
+#contato{
+    background-color:rgb(243, 235, 239);
+}
+
+#contato .faleconosco .help{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(190, 65, 92);
+}
+
+#contato .card{
+    border: 1px solid #c0b2b2;
+    border-radius: 42px 12px;
+    box-shadow: black 0px 42px 51px -60px;
+    float: left;
+    margin-top: 40px;
+    
+}
+#contato .card:hover{
+background-color: rgb(190, 65, 92);
+color:white;
+
+}
+
+#contato .cardes .card-title{
+    text-align: center;
+    color:
+}
+
+#contato .cardes .saiba_mais{
+    background-color: rgb(190, 65, 92);
+    padding: 15px 20px;
+    border-radius: 25px 20px;
+    margin-top: 30px;
+    border-color: white;
+}
+
+#contato .cardes .saiba_mais:hover{
+    background-color: rgb(240, 206, 222);
+    color:rgb(190, 65, 92);
