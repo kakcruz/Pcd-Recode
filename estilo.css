@@ -501,7 +501,6 @@ color:white;
 
 #contato .cardes .card-title{
     text-align: center;
-    color:
 }
 
 #contato .cardes .saiba_mais{
@@ -515,3 +514,18 @@ color:white;
 #contato .cardes .saiba_mais:hover{
     background-color: rgb(240, 206, 222);
     color:rgb(190, 65, 92);
+}
+
+#nos .perfil{
+    background-color:rgb(190, 65, 92);
+    border:rgb(190, 65, 92) ;
+    
+}
+
+#nos .card-linkedin{
+    width: 100%;
+}
+
+#nos .iclin{
+    color: rgb(190, 65, 92);
+}

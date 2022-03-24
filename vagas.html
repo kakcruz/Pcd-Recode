@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>PCD JOB</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -29,8 +30,9 @@
                         <nav class="navbar navbar-light">
                             <div class="container-fluid">
                                 <div class="logo">
-                                    <a class="navbar-brand logo" href=""><img src="./imagens/logo.png" class="logopcd" alt=""></a>
-                                  </div>
+                                    <a class="navbar-brand logo" href=""><img src="./imagens/logo.png" class="logopcd"
+                                            alt=""></a>
+                                </div>
 
                                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -39,7 +41,7 @@
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                                     aria-labelledby="offcanvasNavbarLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PCD Job's e Oportunidades!
+                                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PCD JOB e Oportunidades!
                                         </h5>
                                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                                             aria-label="Close"></button>
@@ -47,14 +49,16 @@
                                     <div class="offcanvas-body">
                                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                             <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
-                                              </li>
+                                                <a class="nav-link active" aria-current="page"
+                                                    href="index.html">Início</a>
+                                            </li>
                                             <li class="nav-item">
                                                 <a class="nav-link active" aria-current="page" href="index.html">Pagina
                                                     Inicial</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link active" aria-current="page" href="perfil.html">Meu Perfil</a>
+                                                <a class="nav-link active" aria-current="page" href="perfil.html">Meu
+                                                    Perfil</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="vagas.html">Vagas</a>
@@ -80,7 +84,7 @@
             <div class="container busca">
                 <div class="row">
                     <div class="col-12 col-lg-4">
-                        
+
                         <div class="forms">
                             <form>
                                 <div class="campo">
@@ -163,7 +167,8 @@
                                     </select>
                                 </div>
                                 <div class="campo">
-                                    <button type="button"class="btn btn-danger"><i class="bi bi-search"></i>Buscar</button>
+                                    <button type="button" class="btn btn-danger"><i
+                                            class="bi bi-search"></i>Buscar</button>
                                 </div>
                             </form>
                         </div>
@@ -185,7 +190,7 @@
                                     alimentação de planilhas, lançamentos de dados e apoio aos lançamentos sistêmicos,
                                     apoio a unidade administrativa, organização de documentos - Realizar arquivamento
                                     físico e digital. </p>
-                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                                <a href="#" type="button" class="btn btn-danger candidatar" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero me Candidatar!</a>
                             </div>
                         </div>
                         <br>
@@ -204,7 +209,7 @@
                                     alimentação de planilhas, lançamentos de dados e apoio aos lançamentos sistêmicos,
                                     apoio a unidade administrativa, organização de documentos - Realizar arquivamento
                                     físico e digital. </p>
-                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                                <a href="#" type="button" class="btn btn-danger candidatar" data-bs-toggle="modal" data-bs-target="#exampleModal" >Quero me Candidatar!</a>
                             </div>
                         </div>
                         <br>
@@ -223,7 +228,8 @@
                                     Contato com as secretarias. Analise de notas responsabilidade do Departamento Fiscal
                                     , após isso realizar faturamento. Banco Itaú. Controles de planilhas.
                                     Conhecimento avançado em Excel e Outlook. Formação em áreas correlatas. </p>
-                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                                <a href="#" type="button" class="btn btn-danger candidatar" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero
+                                    me Candidatar!</a>
                             </div>
                         </div>
                         <br>
@@ -243,7 +249,7 @@
                                     recepção de mercadorias e esclarecimento de dúvidas. Zela pelo bom atendimento,
                                     eficiência e produtividade. Cumpre as normas e procedimentos, realiza a precificação
                                     de produtos e reposição de mercadorias.</p>
-                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                                <a href="#" type="button" class="btn btn-danger candidatar" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero me Candidatar!</a>
                             </div>
                         </div>
                         <br>
@@ -263,64 +269,69 @@
                                     correios/transportadora; - devolução de materiais não utilizados; - levar caixas no
                                     correio; - organização do estoque geral; - recebimento e conferencia de mercadorias.
                                 </p>
-                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                                <a href="#" type="button" class="btn btn-danger candidatar" data-bs-toggle="modal" data-bs-target="#exampleModal">Quero me Candidatar!</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-
-
-
-
-
-
+    <footer>
+        <section class="rodape">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 redes">
+                        <h3>Nossas Redes</h3>
+                        <a href="https://www.instagram.com/rederecode/?hl=pt-br" title=""><i
+                                class="bi bi-instagram"></i> Instagram</a>
+                        <a href="https://www.facebook.com/rederecode/" title=""><i class="bi bi-facebook"></i>
+                            Facebook</a>
+                        <a href="https://www.linkedin.com/company/rederecode/" title=""><i class="bi bi-linkedin"></i>
+                            Linkendin</a>
+                        <a href="https://recodepro.org.br/contato/" title=""><i class="bi bi-envelope-fill"></i>
+                            recodepro@recode.org.br</a>
+                    </div>
+                    <div class="col-12 col-md-4 redes">
+                        <h3>Oportunidades</h3>
+                        <a href="vagas.html" title="">Vagas</a>
+                    </div>
+                    <div class="col-12 col-md-4 redes">
+                        <h3>Institucional</h3>
+                        <a href="nos.html" title="">Quem somos Nós</a>
 
 
 
                     </div>
 
 
-
-
-
                 </div>
             </div>
-        </section>
-    </main>
-
-
-
-    <footer>
-        <section class="rodape">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-4 redes">
-                <h3>Nossas Redes</h3>
-                <a href="https://www.instagram.com/rederecode/?hl=pt-br" title=""><i class="bi bi-instagram"></i>  Instagram</a>
-                <a href="https://www.facebook.com/rederecode/" title=""><i class="bi bi-facebook"></i>  Facebook</a>
-                <a href="https://www.linkedin.com/company/rederecode/" title=""><i class="bi bi-linkedin"></i>  Linkendin</a>
-                <a href="https://recodepro.org.br/contato/" title=""><i class="bi bi-envelope-fill"></i>  recodepro@recode.org.br</a>
-              </div>
-              <div class="col-12 col-md-4 redes">
-                <h3>Oportunidades</h3>
-                <a href="vagas.html" title="">Vagas</a>
-                <a href="" title="">Me cadastrar</a>
-              </div>
-              <div class="col-12 col-md-4 redes">
-                <h3>Institucional</h3>
-                <a href="nos.html" title="">Quem somos Nós</a>
-                <a href="" title="">Trabalhe Conosco</a>
-               
-    
-    
-                </div>
-                
-    
-              </div>
             </div>
-          </div>
         </section>
-      </footer>
-    
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Candidatura enviada com sucesso!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Aguarde que entraremos em contato com você.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 </body>
+
 </html>
