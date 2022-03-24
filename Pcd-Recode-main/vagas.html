@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PCD JOB</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <section class="navmenu">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 menunav">
+                        <nav class="navbar navbar-light">
+                            <div class="container-fluid">
+                                <div class="logo">
+                                    <a class="navbar-brand logo" href=""><img src="./imagens/logo.png" class="logopcd" alt=""></a>
+                                  </div>
+
+                                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                    aria-labelledby="offcanvasNavbarLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PCD Job's e Oportunidades!
+                                        </h5>
+                                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+                                              </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="index.html">Pagina
+                                                    Inicial</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="perfil.html">Meu Perfil</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="vagas.html">Vagas</a>
+                                            </li>
+                                            <li class="nav-cadastrar">
+                                                <a class="nav-link" href="nos.html">Quem somos Nós</a>
+                                            </li>
+                                            <li class="nav-contato">
+                                                <a class="nav-link" href="contato.html">Contatos</a>
+                                            </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main id="vagas">
+        <section class="caixa_de_busca">
+            <div class="container busca">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        
+                        <div class="forms">
+                            <form>
+                                <div class="campo">
+                                    <label for="user">Cargo ou palavra chave:</label>
+                                    <input type="text" class="label" placeholder="Exemplo: Administradora">
+                                </div>
+                                <div class="campo">
+                                    <label for="user">Cidade, estado ou região:</label>
+                                    <input type="text" class="label" placeholder="Exemplo: São Paulo">
+                                </div>
+                                <div class="campo">
+                                    <label>Data de publicação:</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Qualquer data</option>
+                                        <option value="1">Hoje</option>
+                                        <option value="2">Último dois dias</option>
+                                        <option value="3">Último três dias</option>
+                                        <option value="3">Última semana</option>
+                                        <option value="3">Últimos 15 dias</option>
+                                        <option value="3">Último mês</option>
+                                    </select>
+                                </div>
+                                <div class="campo">
+                                    <label>Faixa Salarial:</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Indiferente</option>
+                                        <option value="1">Até R$ 1.000,00</option>
+                                        <option value="2">A partir de R$ 2.000,00</option>
+                                        <option value="3">A partir de R$ 3.000,00</option>
+                                        <option value="3">A partir de R$ 4.000,00</option>
+                                        <option value="3">A partir de R$ 5.000,00</option>
+                                        <option value="3">Acima de R$ 10.000,00</option>
+                                    </select>
+                                </div>
+                                <div class="campo">
+                                    <label>Área Profissional:</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Selecione uma opção</option>
+                                        <option value="1">Administração</option>
+                                        <option value="2">Comercial e Vendas</option>
+                                        <option value="3">Comércio Exterior</option>
+                                        <option value="3">Educação</option>
+                                        <option value="3">Financeira</option>
+                                        <option value="3">Hotelaria e Turismo</option>
+                                        <option value="3">Informática</option>
+                                        <option value="3">Saúde</option>
+                                        <option value="3">Agricultura, Pecuária e Veterinária</option>
+                                        <option value="3">Artes, Arquitetura e Design</option>
+                                        <option value="3">Comunicação / Marketing</option>
+                                        <option value="3">Engenharia</option>
+                                        <option value="3">Jurídica</option>
+                                        <option value="3">Técnica</option>
+                                        <option value="3">Telecomunicações</option>
+                                        <option value="3">Serviços Sociais</option>
+                                    </select>
+                                </div>
+                                <div class="campo">
+                                    <label>Tipo de deficiência:</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Selecione uma opção</option>
+                                        <option value="1">Auditiva</option>
+                                        <option value="2">Física</option>
+                                        <option value="3">Mental / Psicossocial</option>
+                                        <option value="3">Mútipla</option>
+                                        <option value="3">Transtorno do Espectro Autista (TEA)</option>
+                                        <option value="3">Visual</option>
+                                    </select>
+                                </div>
+                                <div class="campo">
+                                    <label>Tipo de Contrato:</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Selecione uma opção</option>
+                                        <option value="1">CLT (Efetivo)</option>
+                                        <option value="2">PJ (Prestador de Serviços)</option>
+                                        <option value="3">Temporário(a)</option>
+                                        <option value="3">Autônomo</option>
+                                        <option value="3">Free-lancer</option>
+                                        <option value="3">Trainee</option>
+                                        <option value="3">Cooperado</option>
+                                    </select>
+                                </div>
+                                <div class="campo">
+                                    <button type="button"class="btn btn-danger"><i class="bi bi-search"></i>Buscar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-8">
+                        <br><br>
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Estágio em Administração</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Empresa: Recode Pro</h5><br>
+                                <p class="info">Salario: R$ 1.200,00
+                                    <br> Local da vaga: São Paulo - SP
+                                    <br> Publicada em: 21/02
+                                </p>
+                                <p class="card-text">Acompanhar demandas externas. Apoio a área administrativa:
+                                    alimentação de planilhas, lançamentos de dados e apoio aos lançamentos sistêmicos,
+                                    apoio a unidade administrativa, organização de documentos - Realizar arquivamento
+                                    físico e digital. </p>
+                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Assistente de Almoxarifado</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Empresa: Confidencial</h5><br>
+                                <p class="info">Salario: R$ 1.600,00
+                                    <br> Local da vaga: São Paulo - SP
+                                    <br> Publicada em: 21/02
+                                </p>
+                                <p class="card-text">Acompanhar demandas externas. Apoio a área administrativa:
+                                    alimentação de planilhas, lançamentos de dados e apoio aos lançamentos sistêmicos,
+                                    apoio a unidade administrativa, organização de documentos - Realizar arquivamento
+                                    físico e digital. </p>
+                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Assistente de Contabilidade</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Empresa: Itaú</h5><br>
+                                <p class="info">Salario: R$ 1.900,00
+                                    <br> Local da vaga: Rio de Janeiro e São Paulo - RJ e SP
+                                    <br> Publicada em: 19/02
+                                </p>
+                                <p class="card-text">Contas a pagar e a receber. Fluxo de Caixa. Provisão de Caixa.
+                                    Contato com as secretarias. Analise de notas responsabilidade do Departamento Fiscal
+                                    , após isso realizar faturamento. Banco Itaú. Controles de planilhas.
+                                    Conhecimento avançado em Excel e Outlook. Formação em áreas correlatas. </p>
+                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Recepcionista</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Empresa: Hospital Rede D'or São Luiz</h5><br>
+                                <p class="info">Salario: R$ 1.500,00
+                                    <br> Local da vaga: São Paulo e Santa Catarina- SP e SC
+                                    <br> Publicada em: 22/02
+                                </p>
+                                <p class="card-text">Atua com atendimento ao cliente, recepciona, apresenta os produtos,
+                                    realiza a organização de prateleiras, estocagem e organização do local. Faz a
+                                    recepção de mercadorias e esclarecimento de dúvidas. Zela pelo bom atendimento,
+                                    eficiência e produtividade. Cumpre as normas e procedimentos, realiza a precificação
+                                    de produtos e reposição de mercadorias.</p>
+                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                            </div>
+                        </div>
+                        <br>
+
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Estoquista</h4>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Empresa: Stone</h5><br>
+                                <p class="info">Salario: R$ 1.800,00
+                                    <br> Local da vaga: Todo Brasil
+                                    <br> Publicada em: 23/02
+                                </p>
+                                <p class="card-text">- separar materiais para execução de obras; - separar materiais
+                                    para instalação de acabamentos; - separar materiais para envio por
+                                    correios/transportadora; - devolução de materiais não utilizados; - levar caixas no
+                                    correio; - organização do estoque geral; - recebimento e conferencia de mercadorias.
+                                </p>
+                                <a href="#" type="button" class="btn btn-danger candidatar">Quero me Candidatar!</a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <section class="rodape">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-4 redes">
+                <h3>Nossas Redes</h3>
+                <a href="https://www.instagram.com/rederecode/?hl=pt-br" title=""><i class="bi bi-instagram"></i>  Instagram</a>
+                <a href="https://www.facebook.com/rederecode/" title=""><i class="bi bi-facebook"></i>  Facebook</a>
+                <a href="https://www.linkedin.com/company/rederecode/" title=""><i class="bi bi-linkedin"></i>  Linkendin</a>
+                <a href="https://recodepro.org.br/contato/" title=""><i class="bi bi-envelope-fill"></i>  recodepro@recode.org.br</a>
+              </div>
+              <div class="col-12 col-md-4 redes">
+                <h3>Oportunidades</h3>
+                <a href="vagas.html" title="">Vagas</a>
+                <a href="" title="">Me cadastrar</a>
+              </div>
+              <div class="col-12 col-md-4 redes">
+                <h3>Institucional</h3>
+                <a href="nos.html" title="">Quem somos Nós</a>
+                <a href="" title="">Trabalhe Conosco</a>
+               
+    
+    
+                </div>
+                
+    
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    
+
+</body>
+</html>
