@@ -529,3 +529,7 @@ color:white;
 #nos .iclin{
     color: rgb(190, 65, 92);
 }
+
+#nos .list-group{
+    border-radius: 42px 12px;
+}
